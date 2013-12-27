@@ -153,8 +153,8 @@
 (global-set-key (kbd "M-SPC ") 'live-delete-whitespace-except-one)
 
 ;;make ^h delete rather than help
-(global-set-key (kbd "C-h") 'delete-backward-char)
-(define-key paredit-mode-map (kbd "C-h") 'paredit-backward-delete)
+;;(global-set-key (kbd "C-h") 'delete-backward-char)
+;;(define-key paredit-mode-map (kbd "C-h") 'paredit-backward-delete)
 
 ;;redefine help shortcut
 (global-set-key (kbd "M-h") 'help-command)
